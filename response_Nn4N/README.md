@@ -9,7 +9,7 @@ Note that for VBench-Long we use the average of its aesthetic quality and imagin
 | **LoCoT2V-Bench (ours.)** | **71.39**/**70.20**/**54.67** | **63.38**/**67.23**/**52.68** | **47.17**/**49.90**/**39.19** | **52.80**/**51.11**/**36.57** |
 
 ## [W3: Lack of Important Details]
-See some of our filtered videos in [./filtered_video_cases](./filtered_video_cases).
+See some of our filtered videos in [./filtered_video_cases](./filtered_video_cases). We recommend the reviewer downloading them to watch locally for better visualization.
 Although more representative videos may have been deleted, we still expect these videos could serve as a partial reference for our filtering criteria.
 
 ## [W4/Q3: Lack Evaluation on Commercial Methods and Real-world Videos]
