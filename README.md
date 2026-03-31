@@ -1,4 +1,2 @@
-# LoCoT2V-Bench
-Data and implementation code for ICML submission [LoCoT2V-Bench: Benchmarking Long-Form and Complex Text-to-Video Generation]
 
-Data and code are being organized and we will release the complete data, evaluation code and results as soon as possible after the reorganization of project structure.
+
