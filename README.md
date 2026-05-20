@@ -16,6 +16,7 @@ LoCoT2V-Bench is a comprehensive evaluation benchmark designed to assess long-fo
 
 ## Data Introduction
 To be completed...
+
 (See [data/prompt.json](./data/prompt.json) for more details) We've provided our prompt data for generating videos and metadata for evaluation. Here we give a brief explanation for the fields in it.
 * **[theme] (like "space")**: Corresponding to the 18 themes mentioned in our paper.
 * **[theme]_[id] (like space_2)**: Refer to the id we assigned to our collected source video.
