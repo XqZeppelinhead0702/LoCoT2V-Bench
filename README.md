@@ -5,16 +5,16 @@ Official implementation of **LoCoT2V-Bench: Benchmarking Long-Form and Complex T
 
 If you have any questions, feel free to contact us with this Email: [xiangqingzheng0702@gmail.com](xiangqingzheng0702@gmail.com)
 
-🚩: TODOs
+## :calendar: TODOs
 > - [x] release the prompt data and metadata for evaluation
 > - [ ] release the source videos (will be a link to download these videos)
 > - [ ] release evaluation code
 > - [ ] release the final version paper on arxiv
 
-## Summary
+## :blue_book: Summary
 LoCoT2V-Bench is a comprehensive evaluation benchmark designed to assess long-form text-to-video generation under complex, multi-scene textual conditions. Grounded in high-quality real-world videos, the benchmark provides detailed, script-level prompts enriched with hierarchical metadata, including specific character attributes and camera movements. To systematically measure generation quality, we introduce LoCoT2V-Eval, a multi-dimensional evaluation framework that assesses fine-grained text-video alignment through a hierarchical tree-structured VQA approach and captures high-level narrative fulfillment via a dual-agent Human Expectation Realization Degree (HERD) metric. Extensive evaluations across 17 leading models reveal that while current approaches excel in overall visual quality and background stability, they still face significant challenges in fine-grained semantic adherence and long-term character consistency.
 
-## Data Introduction
+## :file_folder: Data Introduction
 To be completed...
 
 (See [data/prompt.json](./data/prompt.json) for more details) We've provided our prompt data for generating videos and metadata for evaluation. Here we give a brief explanation for the fields in it.
@@ -36,10 +36,10 @@ To be completed...
 * **herd_expectations**: ...
 * **herd_questions**: ...
 
-## Enviroment Setting
+## :wrench: Enviroment Setting
 ...
 
-## Evaluation Guidance
+## :mag_right: Evaluation Guidance
 ...
 
 ## Citation
