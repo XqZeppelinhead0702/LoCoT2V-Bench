@@ -1,4 +1,4 @@
-# LoCoT2V-Bench
+# LoCoT2V-Bench: Benchmarking Long-Form and Complex Text-to-Video Generation
 [![arXiv:2510.26412](https://img.shields.io/badge/arXiv-2510.26412-red?logo=arXiv:2510.26412)](https://arxiv.org/abs/2510.26412)
 
 Official implementation of **LoCoT2V-Bench: Benchmarking Long-Form and Complex Text-to-Video Generation** (ICML 2026)
