@@ -1,0 +1,6 @@
+results/
+temp/
+outs/
+__pycache__/
+*.out
+*.err
