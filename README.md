@@ -5,6 +5,8 @@ Official implementation of **LoCoT2V-Bench: Benchmarking Long-Form and Complex T
 
 If you have any questions, feel free to contact us with this Email: [xiangqingzheng0702@gmail.com](xiangqingzheng0702@gmail.com)
 
+![LoCoT2V-Bench Overview](./assets/LoCoT2V-Bench_Overview.png)
+
 ## :calendar: TODOs
 > - [x] release the prompt data and metadata for evaluation
 > - [ ] release the source videos (will be a link to download these videos)
