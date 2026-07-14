@@ -209,11 +209,20 @@ Metrics with multiple sub-dimensions (e.g., HERD, Fine-Grained Alignment, Devil 
 - `eval_warping_error.py` relies on a local RAFT implementation. Ensure the corresponding third-party code is present under `locot2v_eval/utils/third_party/`.
 - The Dynamic Quality metric internally switches between `vbench_env` and `locot2v_bench`; running it inside an already activated conda environment is fine, but non-interactive shells may need the conda initialization step mentioned above.
 
-## :scroll: License
+## :pray: Acknowledgments
+This project is built upon or has drawn inspiration from several excellent open-source projects and models. We deeply appreciate their contributions to the community:
+- **[VBench](https://github.com/Vchitect/VBench)**: We utilize their implementations and convert them into streaming version for assessing Dynamic Degree and Motion Smoothness.
+- **[EvalCrafter](https://github.com/evalcrafter/EvalCrafter)**: We incorporate their implementation for calculating Warping Error (located in our `third_party` directory).
+- **[DEVIL](https://github.com/MingXiangL/DEVIL)**: We adapt their pipeline and model weights for DEVIL score evaluation.
+- **[RAFT](https://github.com/princeton-vl/RAFT)**: Mainly used in metrics like warping error, devil scores and so on.
+- **[DeQA-Score](https://github.com/zhiyuanyou/DeQA-Score)**: We employ their model for frame-level perceptual quality evaluation.
+- **[SAM3](https://github.com/facebookresearch/sam3)**: Used in our Character Consistency evaluation module.
+- **[Qwen3-VL](https://github.com/qwenlm/qwen3-vl)**: We leverage the Qwen3-VL-Instruct series for vision-language alignment evaluation.
 
+## :scroll: License
 This project is released under the MIT License. See [LICENSE](./LICENSE) for details.
 
-## Citation
+## :star: Citation
 If you find our work helpful for your research, please consider citing our work.
 ```
 @article{zheng2025locot2v,
