@@ -170,16 +170,6 @@ bash scripts/eval_all_metrics.sh
 
 This will generate the video list, run every metric, and save results under the specified result directory.
 
-### (Optional) 4. Run evaluation perspectively
-Of course, we also support the practice of evaluating on these metrics respectively, which is more recommended because of higher efficiency (You may run different evaluation on different GPUs for parallelization).
-For example, you could run one of the evaluation scripts like this for only assessing perceptual quality:
-
-```bash
-bash scripts/eval_perceptual_quality.sh \
-    --eval_data "./eval_videos/example.json" \
-    --result_path "./results/example/eval_perceptual_quality.json"
-```
-
 > **Note:** The DQ score is derived from the Dynamic Degree, Motion Smoothness, and Devil Scores. After these three metrics finish
 **python scripts/compute_dq_scores.py $RESULT_DIR** will be used to obtain the merged score that reported in our paper.
 This produces `eval_dq_scores.json` in the same directory, containing both per-sample and overall DQ scores.
