@@ -1,3 +1,5 @@
+
+
 # LoCoT2V-Bench: Benchmarking Long-Form and Complex Text-to-Video Generation
 [![arXiv:2510.26412](https://img.shields.io/badge/arXiv-2510.26412-red?logo=arXiv:2510.26412)](https://arxiv.org/abs/2510.26412)
 
@@ -47,7 +49,7 @@ All learnable checkpoints are excluded from git. Download them with:
 
 ```bash
 cd ckpts/
-bash ckpts/download.sh
+bash download.sh
 ```
 
 However, the checkpoints required to evaluate devil scores should manually download from the urls given by the source repo (Refer to [DEVIL](https://github.com/MingXiangL/DEVIL)).
